@@ -156,9 +156,9 @@ It is a personal growth operating system for students and developers who believe
 
 👨‍💻 Author
 
-Karan Gavhane
-Computer Science Engineering Student
-Focused on building scalable systems and achieving top-tier placements.
+Karan Gavhane <br>
+Computer Science Engineering Student <br>
+Focused on building scalable systems and achieving top-tier placements. 
 
 📜 License
 
