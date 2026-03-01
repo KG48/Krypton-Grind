@@ -69,8 +69,8 @@ export function Navbar({ darkMode, onToggleDarkMode }: NavbarProps) {
               JD
             </div>
             <div className="text-left">
-              <p className="text-sm font-medium text-slate-900 dark:text-slate-100">John Doe</p>
-              <p className="text-xs text-slate-500 dark:text-slate-400">john@example.com</p>
+              <p className="text-sm font-medium text-slate-900 dark:text-slate-100">Karan Gavhane</p>
+              <p className="text-xs text-slate-500 dark:text-slate-400">karangavhane1213@gmail.com</p>
             </div>
           </button>
         </div>
