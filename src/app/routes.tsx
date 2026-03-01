@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createBrowserRouter } from "react-router-dom";;
 import { DashboardLayout } from "./components/layout/DashboardLayout";
 import { DashboardPage } from "./pages/Dashboard";
 import { StudyTrackerPage } from "./pages/StudyTracker";

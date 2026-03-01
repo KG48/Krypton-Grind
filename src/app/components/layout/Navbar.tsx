@@ -1,5 +1,5 @@
 import { Search, Bell, Moon, Sun } from 'lucide-react';
-import { useLocation } from 'react-router';
+import { useLocation } from 'react-router-dom';
 
 interface NavbarProps {
   darkMode: boolean;
