@@ -65,8 +65,8 @@ export function Navbar({ darkMode, onToggleDarkMode }: NavbarProps) {
 
           {/* Profile Avatar */}
           <button className="flex items-center gap-3 px-3 py-2 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
-            <div className="w-10 h-10 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-semibold">
-              JD
+            <div className="w-10 h-10 rounded-full bg-linear-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-semibold">
+              KG
             </div>
             <div className="text-left">
               <p className="text-sm font-medium text-slate-900 dark:text-slate-100">Karan Gavhane</p>
