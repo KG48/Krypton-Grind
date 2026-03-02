@@ -26,7 +26,7 @@ export function Sidebar() {
         {/* Logo */}
         <div className="h-20 flex items-center px-6 border-b border-slate-200 dark:border-slate-700">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
+            <div className="w-10 h-10 rounded-xl bg-linear-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
               <BookOpen className="w-6 h-6 text-white" />
             </div>
             <div>
@@ -63,7 +63,7 @@ export function Sidebar() {
 
         {/* Footer */}
         <div className="p-4 border-t border-slate-200 dark:border-slate-700">
-          <div className="px-4 py-3 rounded-xl bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 border border-indigo-100 dark:border-indigo-800">
+          <div className="px-4 py-3 rounded-xl bg-linear-to-br from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 border border-indigo-100 dark:border-indigo-800">
             <p className="text-xs font-medium text-indigo-900 dark:text-indigo-300 mb-1">
               Pro Tip
             </p>
