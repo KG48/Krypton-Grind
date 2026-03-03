@@ -178,7 +178,7 @@ export function DailyPlannerPage() {
         <div className="lg:col-span-1">
           <div className="bg-white dark:bg-[#1e293b] rounded-2xl p-6 border border-slate-200 dark:border-slate-700 shadow-sm sticky top-8">
             <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100 mb-4">Today's Schedule</h3>
-            <div className="space-y-2 max-h-[600px] overflow-y-auto pr-2">
+            <div className="space-y-2 max-h-150 overflow-y-auto pr-2">
               {timeSlots.map((time) => {
                 const task = getTaskForTime(time);
                 return (

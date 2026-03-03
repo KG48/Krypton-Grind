@@ -22,10 +22,10 @@ export function ProfilePage() {
   return (
     <div className="space-y-6">
       {/* Profile Header */}
-      <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl p-8 text-white shadow-lg">
+      <div className="bg-linear-to-r from-indigo-500 to-purple-600 rounded-2xl p-8 text-white shadow-lg">
         <div className="flex items-center gap-6">
           <div className="w-24 h-24 rounded-full bg-white/20 backdrop-blur flex items-center justify-center text-4xl font-bold border-4 border-white/30">
-            JD
+            KG
           </div>
           <div className="flex-1">
             <h1 className="text-3xl font-semibold mb-2">Karan Gavhane</h1>
@@ -76,7 +76,7 @@ export function ProfilePage() {
                 <Label htmlFor="firstName" className="text-slate-700 dark:text-slate-300">First Name</Label>
                 <Input
                   id="firstName"
-                  defaultValue="John"
+                  defaultValue="Karan"
                   className="mt-1.5 rounded-xl bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700"
                 />
               </div>
@@ -84,7 +84,7 @@ export function ProfilePage() {
                 <Label htmlFor="lastName" className="text-slate-700 dark:text-slate-300">Last Name</Label>
                 <Input
                   id="lastName"
-                  defaultValue="Doe"
+                  defaultValue="Gavhane"
                   className="mt-1.5 rounded-xl bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700"
                 />
               </div>
@@ -94,7 +94,7 @@ export function ProfilePage() {
               <Input
                 id="email"
                 type="email"
-                defaultValue="john.doe@example.com"
+                defaultValue="karan.gavhane@example.com"
                 className="mt-1.5 rounded-xl bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700"
               />
             </div>
@@ -129,7 +129,7 @@ export function ProfilePage() {
                 key={achievement.id}
                 className={`p-4 rounded-xl text-center transition-all ${
                   achievement.earned
-                    ? 'bg-gradient-to-br from-amber-50 to-yellow-50 dark:from-amber-900/20 dark:to-yellow-900/20 border-2 border-amber-200 dark:border-amber-800'
+                    ? 'bg-linear-to-br from-amber-50 to-yellow-50 dark:from-amber-900/20 dark:to-yellow-900/20 border-2 border-amber-200 dark:border-amber-800'
                     : 'bg-slate-50 dark:bg-slate-800 border-2 border-slate-200 dark:border-slate-700 opacity-50'
                 }`}
               >

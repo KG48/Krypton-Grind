@@ -64,7 +64,7 @@ export function AnalyticsPage() {
 
       {/* Summary Cards */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-        <div className="bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl p-6 text-white shadow-lg">
+        <div className="bg-linear-to-br from-indigo-500 to-purple-600 rounded-2xl p-6 text-white shadow-lg">
           <div className="flex items-center justify-between mb-2">
             <TrendingUp className="w-8 h-8" />
             <span className="text-sm bg-white/20 px-2 py-1 rounded-lg">+12%</span>
@@ -73,7 +73,7 @@ export function AnalyticsPage() {
           <p className="text-3xl font-semibold">6.3h</p>
         </div>
 
-        <div className="bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl p-6 text-white shadow-lg">
+        <div className="bg-linear-to-br from-emerald-500 to-teal-600 rounded-2xl p-6 text-white shadow-lg">
           <div className="flex items-center justify-between mb-2">
             <BarChart3 className="w-8 h-8" />
             <span className="text-sm bg-white/20 px-2 py-1 rounded-lg">+8%</span>
@@ -82,16 +82,16 @@ export function AnalyticsPage() {
           <p className="text-3xl font-semibold">124h</p>
         </div>
 
-        <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl p-6 text-white shadow-lg">
+        <div className="bg-linear-to-br from-amber-500 to-orange-600 rounded-2xl p-6 text-white shadow-lg">
           <div className="flex items-center justify-between mb-2">
             <Calendar className="w-8 h-8" />
             <span className="text-sm bg-white/20 px-2 py-1 rounded-lg">Current</span>
           </div>
           <p className="text-sm text-amber-100 mb-1">Active Streak</p>
-          <p className="text-3xl font-semibold">18 days</p>
+          <p className="text-3xl font-semibold">30 days</p>
         </div>
 
-        <div className="bg-gradient-to-br from-pink-500 to-rose-600 rounded-2xl p-6 text-white shadow-lg">
+        <div className="bg-linear-to-br from-pink-500 to-rose-600 rounded-2xl p-6 text-white shadow-lg">
           <div className="flex items-center justify-between mb-2">
             <Award className="w-8 h-8" />
             <span className="text-sm bg-white/20 px-2 py-1 rounded-lg">Top 10%</span>

@@ -13,27 +13,28 @@ const weeklyData = [
 ];
 
 const subjectData = [
-  { subject: 'Math', progress: 85 },
-  { subject: 'Physics', progress: 72 },
-  { subject: 'Chemistry', progress: 68 },
-  { subject: 'Biology', progress: 91 },
-  { subject: 'CS', progress: 78 },
+  { subject: 'OOPS using C++', progress: 85 },
+  { subject: 'Digital logic design', progress: 72 },
+  { subject: 'Data Structures', progress: 68 },
+  { subject: 'Computer Architecture', progress: 91 },
+  { subject: 'Operating Systems', progress: 78 },
+  { subject: 'Descrete Mathematics', progress: 64 },
 ];
 
 const recentActivities = [
-  { id: 1, title: 'Completed Calculus Chapter 5', time: '2 hours ago', type: 'study' },
+  { id: 1, title: 'Completed Descrete Mathematics assignment', time: '2 hours ago', type: 'study' },
   { id: 2, title: 'Solved 3 LeetCode problems', time: '4 hours ago', type: 'coding' },
-  { id: 3, title: 'Finished Physics assignment', time: '1 day ago', type: 'study' },
+  { id: 3, title: 'Finished Computer Architecture lab', time: '1 day ago', type: 'study' },
   { id: 4, title: 'Reviewed Data Structures', time: '1 day ago', type: 'study' },
-  { id: 5, title: 'Chemistry lab report submitted', time: '2 days ago', type: 'study' },
+  { id: 5, title: 'Completed Operating Systems assignment', time: '2 days ago', type: 'study' },
 ];
 
 export function DashboardPage() {
   return (
     <div className="space-y-8">
       {/* Welcome Message */}
-      <div className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl p-8 text-white shadow-lg">
-        <h1 className="text-3xl font-semibold mb-2">Welcome back, John! 👋</h1>
+      <div className="bg-linear-to-r from-indigo-500 to-purple-600 rounded-2xl p-8 text-white shadow-lg">
+        <h1 className="text-3xl font-semibold mb-2">Welcome back, Shubh-Stuti! 👋🥰</h1>
         <p className="text-indigo-100">
           You've studied <span className="font-semibold">44 hours</span> this week. Keep up the great work!
         </p>

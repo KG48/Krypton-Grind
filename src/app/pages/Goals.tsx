@@ -35,9 +35,9 @@ const initialGoals: Goal[] = [
   },
   {
     id: '3',
-    title: 'Finish Logic Design Project',
+    title: 'Finish Object-Oriented Programming using C++ Course',
     deadline: '2026-03-10',
-    progress: 92,
+    progress: 10,
     status: 'at-risk',
     category: 'Study',
   },

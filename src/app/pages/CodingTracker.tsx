@@ -42,15 +42,15 @@ export function CodingTrackerPage() {
   return (
     <div className="space-y-6">
       {/* Streak Card */}
-      <div className="bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl p-8 text-white shadow-lg">
+      <div className="bg-linear-to-br from-orange-500 to-red-600 rounded-2xl p-8 text-white shadow-lg">
         <div className="flex items-center justify-between">
           <div>
             <div className="flex items-center gap-2 mb-2">
               <Flame className="w-8 h-8" />
-              <h2 className="text-3xl font-semibold">18 Day Streak! 🔥</h2>
+              <h2 className="text-3xl font-semibold">20 Days Streak!🔥</h2>
             </div>
             <p className="text-orange-100">
-              You've solved problems for 18 consecutive days. Keep it going!
+              You've solved problems for 20 consecutive days. Keep it going!
             </p>
           </div>
           <div className="text-right">
@@ -167,7 +167,7 @@ export function CodingTrackerPage() {
         <Textarea
           value={mistakeJournal}
           onChange={(e) => setMistakeJournal(e.target.value)}
-          className="min-h-[300px] rounded-xl bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700 font-mono text-sm"
+          className="min-h-75 rounded-xl bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700 font-mono text-sm"
           placeholder="Document your mistakes and learnings here..."
         />
         <Button className="mt-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl">
